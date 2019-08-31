@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zony.Abp.gRpc.Client.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zony.Abp.gRpc.Server.Tests", "tests\Zony.Abp.gRpc.Server.Tests\Zony.Abp.gRpc.Server.Tests.csproj", "{783C0E92-0409-498D-A246-F82B3D3C7953}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9B2B790C-E458-4A0D-B675-74CF5D8E41CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

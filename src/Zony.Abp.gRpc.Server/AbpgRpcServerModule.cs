@@ -1,9 +1,14 @@
-﻿using System;
+﻿using Volo.Abp;
 using Volo.Abp.Modularity;
 
 namespace Zony.Abp.gRpc.Server
 {
-    public class VoloAbpgRpcServerModule : AbpModule
+    [DependsOn(typeof(AbpgRpcCommonModule))]
+    public class AbpgRpcServerModule : AbpModule
     {
+        public override void OnApplicationInitialization(ApplicationInitializationContext context)
+        {
+            base.OnApplicationInitialization(context);
+        }
     }
 }

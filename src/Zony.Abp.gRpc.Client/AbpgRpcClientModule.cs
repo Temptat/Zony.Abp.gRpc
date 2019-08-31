@@ -2,7 +2,7 @@
 
 namespace Zony.Abp.gRpc.Client
 {
-    public class VoloAbpgRpcClientModule : AbpModule
+    public class AbpgRpcClientModule : AbpModule
     {
         
     }

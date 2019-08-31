@@ -2,7 +2,7 @@
 using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
 
-namespace Zony.Abp.gRpc.Tests
+namespace Zony.Abp.gRpc.Common.Tests
 {
     [DependsOn(typeof(AbpTestBaseModule),
         typeof(AbpAutofacModule),

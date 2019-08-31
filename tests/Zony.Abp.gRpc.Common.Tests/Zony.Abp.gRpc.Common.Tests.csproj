@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
-        <RootNamespace>Zony.Abp.gRpc.Tests</RootNamespace>
+        <RootNamespace>Zony.Abp.gRpc.Common.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

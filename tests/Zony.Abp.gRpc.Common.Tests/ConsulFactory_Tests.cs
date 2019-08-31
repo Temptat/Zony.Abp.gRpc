@@ -1,7 +1,7 @@
 using Shouldly;
 using Xunit;
 
-namespace Zony.Abp.gRpc.Tests
+namespace Zony.Abp.gRpc.Common.Tests
 {
     public class ConsulFactory_Tests : AbpgRpcCommonTestBase<AbpgRpcCommonTestsModule>
     {

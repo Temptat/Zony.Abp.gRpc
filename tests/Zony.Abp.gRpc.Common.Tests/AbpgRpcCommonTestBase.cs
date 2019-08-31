@@ -1,7 +1,7 @@
 using Volo.Abp;
 using Volo.Abp.Modularity;
 
-namespace Zony.Abp.gRpc.Tests
+namespace Zony.Abp.gRpc.Common.Tests
 {
     public class AbpgRpcCommonTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule> where TStartupModule : IAbpModule
     {

@@ -1,5 +1,6 @@
 using Shouldly;
 using Xunit;
+using Zony.Abp.gRpc.Consul;
 
 namespace Zony.Abp.gRpc.Common.Tests
 {

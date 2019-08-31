@@ -1,4 +1,4 @@
-namespace Zony.Abp.gRpc
+namespace Zony.Abp.gRpc.Consul
 {
     public class ConsulBuildParameters
     {

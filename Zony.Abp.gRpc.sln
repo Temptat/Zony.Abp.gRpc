@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zony.Abp.gRpc.Common.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zony.Abp.gRpc.Client.Tests", "tests\Zony.Abp.gRpc.Client.Tests\Zony.Abp.gRpc.Client.Tests.csproj", "{6C554641-3518-4782-9142-CDBFD85591C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zony.Abp.gRpc.Server.Tests", "tests\Zony.Abp.gRpc.Server.Tests\Zony.Abp.gRpc.Server.Tests.csproj", "{783C0E92-0409-498D-A246-F82B3D3C7953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{6C554641-3518-4782-9142-CDBFD85591C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C554641-3518-4782-9142-CDBFD85591C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C554641-3518-4782-9142-CDBFD85591C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783C0E92-0409-498D-A246-F82B3D3C7953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783C0E92-0409-498D-A246-F82B3D3C7953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783C0E92-0409-498D-A246-F82B3D3C7953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783C0E92-0409-498D-A246-F82B3D3C7953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{95C3D9FB-969D-4E7C-B47B-241A9112FA07} = {872C4705-D6CC-44EA-BF10-483460AA29F6}
@@ -47,5 +53,6 @@ Global
 		{0FDEBE4A-83E4-4802-B215-3C4F2D8A556E} = {872C4705-D6CC-44EA-BF10-483460AA29F6}
 		{E194AB88-B00E-448C-B2E6-75E37A63A9E8} = {1D341AD4-A976-4C09-9FDF-433648E308BF}
 		{6C554641-3518-4782-9142-CDBFD85591C8} = {1D341AD4-A976-4C09-9FDF-433648E308BF}
+		{783C0E92-0409-498D-A246-F82B3D3C7953} = {1D341AD4-A976-4C09-9FDF-433648E308BF}
 	EndGlobalSection
 EndGlobal

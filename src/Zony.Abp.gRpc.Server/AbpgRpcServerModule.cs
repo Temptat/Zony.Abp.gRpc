@@ -1,5 +1,6 @@
 ﻿using Volo.Abp;
 using Volo.Abp.Modularity;
+using Zony.Abp.gRpc.Common;
 
 namespace Zony.Abp.gRpc.Server
 {

@@ -2,6 +2,27 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Zony.Abp.gRpc.Client</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Zony.Abp.gRpc.Client</Title>
+        <Authors>Zony</Authors>
+        <Description>封装了 MagicOnion 的客户端实现，并提供了 Consul 集成的相关组件。</Description>
+        <RepositoryType>git</RepositoryType>
+
+        <PackageTags>gRpc;magic onion;magiconion;consul;abp vnext;abp;asp.net core;.netcore;asp.net mvc</PackageTags>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/GameBelial/Zony.Abp.gRpc</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/GameBelial/Zony.Abp.gRpc</RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/GameBelial/Zony.Abp.gRpc/blob/master/LICENSE</PackageLicenseUrl>
+
+        <PackageVersion>1.0.0</PackageVersion>
+        <Version>1.0.0</Version>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <DocumentationFile>bin\Debug\Zony.Abp.gRpc.Client.xml</DocumentationFile>
+        <NoWarn>1701;1702;1591;NU5125</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>

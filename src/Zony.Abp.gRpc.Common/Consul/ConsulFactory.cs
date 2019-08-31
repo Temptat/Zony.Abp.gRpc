@@ -1,7 +1,7 @@
 using System;
 using Consul;
 
-namespace Zony.Abp.gRpc.Consul
+namespace Zony.Abp.gRpc.Common.Consul
 {
     public class ConsulFactory : IConsulFactory
     {

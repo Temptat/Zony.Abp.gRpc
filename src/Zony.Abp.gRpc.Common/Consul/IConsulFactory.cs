@@ -1,7 +1,7 @@
 using Consul;
 using Volo.Abp.DependencyInjection;
 
-namespace Zony.Abp.gRpc.Consul
+namespace Zony.Abp.gRpc.Common.Consul
 {
     public interface IConsulFactory : ISingletonDependency
     {

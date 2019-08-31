@@ -2,10 +2,36 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Zony.Abp.gRpc.Server</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Zony.Abp.gRpc.Server</Title>
+        <Authors>Zony</Authors>
+        <Description>封装了 MagicOnion 的服务端建立代码，可以快速的与 ABP vNext 集成并启动 gRpc 服务器。</Description>
+        <RepositoryType>git</RepositoryType>
+
+        <PackageTags>gRpc;magic onion;magiconion;consul;abp vnext;abp;asp.net core;.netcore;asp.net mvc</PackageTags>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/GameBelial/Zony.Abp.gRpc</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/GameBelial/Zony.Abp.gRpc</RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/GameBelial/Zony.Abp.gRpc/blob/master/LICENSE</PackageLicenseUrl>
+
+        <PackageVersion>1.0.0</PackageVersion>
+        <Version>1.0.0</Version>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <DocumentationFile>bin\Debug\Zony.Abp.gRpc.Server.xml</DocumentationFile>
+        <NoWarn>1701;1702;1591;NU5125</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Zony.Abp.gRpc.Common\Zony.Abp.gRpc.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MagicOnion" Version="2.3.0" />
+      <PackageReference Include="MagicOnion.Hosting" Version="2.3.0" />
     </ItemGroup>
 
 </Project>

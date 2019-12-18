@@ -31,7 +31,6 @@
 
     <ItemGroup>
       <PackageReference Include="MagicOnion" Version="2.7.1" />
-      <PackageReference Include="MagicOnion.Hosting" Version="2.7.1" />
     </ItemGroup>
 
 </Project>

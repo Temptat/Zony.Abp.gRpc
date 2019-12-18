@@ -13,11 +13,18 @@ namespace Zony.Abp.gRpc.Server
         public IPEndPoint ListenEndPoint { get; set; }
 
         /// <summary>
+        /// 在发生异常的时候，是否显示完整的异常堆栈信息。<br/>
+        /// 默认值：false
+        /// </summary>
+        public bool IsReturnStackDetails { get; set; }
+
+        /// <summary>
         /// 构造一个新的 <see cref="AbpgRpcServerOptions"/> 对象。
         /// </summary>
         public AbpgRpcServerOptions()
         {
             ListenEndPoint = new IPEndPoint(IPAddress.Any, 50000);
+            IsReturnStackDetails = false;
         }
     }
 }

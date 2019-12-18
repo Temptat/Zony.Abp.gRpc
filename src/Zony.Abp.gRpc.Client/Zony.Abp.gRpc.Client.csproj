@@ -29,4 +29,8 @@
       <ProjectReference Include="..\Zony.Abp.gRpc.Common\Zony.Abp.gRpc.Common.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MagicOnion" Version="2.7.1" />
+    </ItemGroup>
+
 </Project>
